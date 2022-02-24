@@ -1,0 +1,51 @@
+{"level":"debug","time":"2022-02-24T19:05:59.099+0530","caller":"cmd/lt.go:89","msg":"File descriptor limit 1048575"}
+{"level":"info","time":"2022-02-24T19:05:59.277+0530","caller":"cobra/command.go:854","msg":"LambdaTest Tunnel version: 3.1.21"}
+{"level":"debug","time":"2022-02-24T19:05:59.277+0530","caller":"cmd/lt.go:176","msg":"Starting pipeline....."}
+{"level":"debug","time":"2022-02-24T19:05:59.278+0530","caller":"cmd/lt.go:176","msg":"OS: darwin, Arch: amd64"}
+{"level":"debug","time":"2022-02-24T19:05:59.278+0530","caller":"cmd/lt.go:176","msg":"Fetching config"}
+{"level":"debug","time":"2022-02-24T19:05:59.278+0530","caller":"runtime/asm_amd64.s:1373","msg":"Starting tunnel With flags: --user mudassars --key ***** --controller npm --infoAPIPort 51324 --tunnelName Mudassar.local51324 --logFile Mudassar.local51324.log --port 51325"}
+{"level":"debug","time":"2022-02-24T19:05:59.820+0530","caller":"cmd/lt.go:176","msg":"Remote config fetched"}
+{"level":"debug","time":"2022-02-24T19:05:59.922+0530","caller":"core/lifecycle.go:152","msg":"Starting API server"}
+{"level":"debug","time":"2022-02-24T19:05:59.922+0530","caller":"runtime/asm_amd64.s:1373","msg":"Trying on port 22"}
+{"level":"debug","time":"2022-02-24T19:05:59.923+0530","caller":"apiserver/setup.go:173","msg":"Starting API server for tunnel info on port: 51324"}
+{"level":"debug","time":"2022-02-24T19:05:59.923+0530","caller":"core/lifecycle.go:138","msg":"Starting sink proxy"}
+{"level":"info","time":"2022-02-24T19:05:59.924+0530","caller":"custom/setup.go:635","msg":"Tunnel binary started on port :51325"}
+{"level":"debug","time":"2022-02-24T19:05:59.923+0530","caller":"runtime/asm_amd64.s:1373","msg":"Trying on port 443"}
+{"level":"debug","time":"2022-02-24T19:05:59.923+0530","caller":"runtime/asm_amd64.s:1373","msg":"Trying over ssh over ws"}
+{"level":"debug","time":"2022-02-24T19:05:59.946+0530","caller":"runtime/asm_amd64.s:1373","msg":"WSS connection was successful"}
+{"level":"debug","time":"2022-02-24T19:06:00.174+0530","caller":"runtime/asm_amd64.s:1373","msg":"SSH connection over port 22 successful"}
+{"level":"debug","time":"2022-02-24T19:06:00.189+0530","caller":"runtime/asm_amd64.s:1373","msg":"SSH connection over ws successful"}
+{"level":"debug","time":"2022-02-24T19:06:00.221+0530","caller":"runtime/asm_amd64.s:1373","msg":"SSH connection over port 443 successful"}
+{"level":"info","time":"2022-02-24T19:06:00.221+0530","caller":"core/lifecycle.go:115","msg":"Using ssh(over_22) :: connection mode"}
+{"level":"info","time":"2022-02-24T19:06:00.222+0530","caller":"cmd/lt.go:176","msg":"Launching tunnel"}
+{"level":"debug","time":"2022-02-24T19:06:00.222+0530","caller":"core/lifecycle.go:233","msg":"Starting control ws connection at wss://ts.lambdatest.com/monitor"}
+{"level":"debug","time":"2022-02-24T19:06:00.508+0530","caller":"core/lifecycle.go:233","msg":"Control ws channel opened"}
+{"level":"debug","time":"2022-02-24T19:06:00.508+0530","caller":"runtime/asm_amd64.s:1373","msg":"Starting message listener on control connection"}
+{"level":"debug","time":"2022-02-24T19:06:02.688+0530","caller":"runtime/asm_amd64.s:1373","msg":"Sending tunnel registered message to channels"}
+{"level":"debug","time":"2022-02-24T19:06:02.688+0530","caller":"core/lifecycle.go:283","msg":"Using 5 ssh connection"}
+{"level":"debug","time":"2022-02-24T19:06:02.688+0530","caller":"runtime/asm_amd64.s:1373","msg":"Tunnel registered message received on control channel"}
+{"level":"debug","time":"2022-02-24T19:06:02.688+0530","caller":"runtime/asm_amd64.s:1373","msg":"controller bus registered"}
+{"level":"debug","time":"2022-02-24T19:06:02.966+0530","caller":"runtime/asm_amd64.s:1373","msg":"Successfully started sshd listener on port: 13712"}
+{"level":"debug","time":"2022-02-24T19:06:02.966+0530","caller":"runtime/asm_amd64.s:1373","msg":"Successfully started sshd listener on port: 22743"}
+{"level":"info","time":"2022-02-24T19:06:02.966+0530","caller":"runtime/asm_amd64.s:1373","msg":"You can start testing now"}
+{"level":"info","time":"2022-02-24T19:06:02.966+0530","caller":"runtime/asm_amd64.s:1373","msg":"Tunnel ID: 1074305"}
+{"level":"debug","time":"2022-02-24T19:06:02.966+0530","caller":"runtime/asm_amd64.s:1373","msg":"Remote Listener Started on Port 6942"}
+{"level":"debug","time":"2022-02-24T19:06:02.971+0530","caller":"runtime/asm_amd64.s:1373","msg":"Successfully started sshd listener on port: 23508"}
+{"level":"debug","time":"2022-02-24T19:06:02.982+0530","caller":"runtime/asm_amd64.s:1373","msg":"Successfully started sshd listener on port: 11054"}
+{"level":"debug","time":"2022-02-24T19:06:03.044+0530","caller":"runtime/asm_amd64.s:1373","msg":"Successfully started sshd listener on port: 18532"}
+{"level":"debug","time":"2022-02-24T19:06:06.916+0530","caller":"cmd/lt.go:176","msg":"Context cancelled"}
+{"level":"info","time":"2022-02-24T19:06:06.916+0530","caller":"cmd/lt.go:176","msg":"Stopping tunnel"}
+{"level":"debug","time":"2022-02-24T19:06:06.916+0530","caller":"custom/setup.go:635","msg":"Exiting the sink proxy"}
+{"level":"debug","time":"2022-02-24T19:06:06.916+0530","caller":"runtime/asm_amd64.s:1373","msg":"Shutting down the server"}
+{"level":"debug","time":"2022-02-24T19:06:06.917+0530","caller":"runtime/asm_amd64.s:1373","msg":"Unusual close error on control channel..."}
+{"level":"debug","time":"2022-02-24T19:06:06.917+0530","caller":"runtime/asm_amd64.s:1373","msg":"Write loop ended for control channel"}
+{"level":"debug","time":"2022-02-24T19:06:07.556+0530","caller":"runtime/asm_amd64.s:1373","msg":"Remote connection on remote port: 23508 closed, reason: EOF"}
+{"level":"debug","time":"2022-02-24T19:06:07.556+0530","caller":"runtime/asm_amd64.s:1373","msg":"closed ssh connection with port 23508"}
+{"level":"debug","time":"2022-02-24T19:06:07.556+0530","caller":"runtime/asm_amd64.s:1373","msg":"Remote connection on remote port: 18532 closed, reason: EOF"}
+{"level":"debug","time":"2022-02-24T19:06:07.556+0530","caller":"runtime/asm_amd64.s:1373","msg":"Remote connection on remote port: 13712 closed, reason: EOF"}
+{"level":"debug","time":"2022-02-24T19:06:07.556+0530","caller":"runtime/asm_amd64.s:1373","msg":"closed ssh connection with port 18532"}
+{"level":"debug","time":"2022-02-24T19:06:07.556+0530","caller":"runtime/asm_amd64.s:1373","msg":"closed ssh connection with port 13712"}
+{"level":"debug","time":"2022-02-24T19:06:07.557+0530","caller":"runtime/asm_amd64.s:1373","msg":"Remote connection on remote port: 11054 closed, reason: EOF"}
+{"level":"debug","time":"2022-02-24T19:06:07.558+0530","caller":"runtime/asm_amd64.s:1373","msg":"closed ssh connection with port 11054"}
+{"level":"debug","time":"2022-02-24T19:06:07.560+0530","caller":"runtime/asm_amd64.s:1373","msg":"Remote connection on remote port: 22743 closed, reason: EOF"}
+{"level":"debug","time":"2022-02-24T19:06:07.560+0530","caller":"runtime/asm_amd64.s:1373","msg":"closed ssh connection with port 22743"}

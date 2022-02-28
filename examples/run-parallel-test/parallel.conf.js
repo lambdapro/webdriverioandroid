@@ -1,6 +1,6 @@
 exports.config = {
-  user:'mudassars',
-  key:'bzxOaqKQcMslHb9gCJbNUXm7vDJn6WAbainToGdJlwiaEWKwEy',
+  user:'',
+  key:'',
 
   host:"beta-hub.lambdatest.com",
   port:80,
